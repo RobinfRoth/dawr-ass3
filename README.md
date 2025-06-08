@@ -6,7 +6,7 @@
 
 You can download the persisted data from [GitHub](https://github.com/RobinfRoth/dawr-ass3/releases/download/data/data_and_logs.zip).
 For the notebook to work correctly place the ZIP file's content directly in root folder of the project `./`. (The 200 post are not really
-needed, because it can be run all on Databricks.)
+needed, because it can be run all on Databricks. The log files however are need, since this analysis is done locally.)
 
 Example how this can be done in bash on Linux:
 
