@@ -4,18 +4,22 @@
 
 ## Load Persisted Data
 
-You can download the persisted data from [GitHub](https://github.com/RobinfRoth/dawr-ass3/releases/download/Raw_Data/raw_data.zip).
-For the notebook to work correctly place the ZIP file's content directly in `./raw_data/`.
+You can download the persisted data from [GitHub](https://github.com/RobinfRoth/dawr-ass3/releases/download/data/data_and_logs.zip).
+For the notebook to work correctly place the ZIP file's content directly in root folder of the project `./`. (The 200 post are not really
+needed, because it can be run all on Databricks.)
 
 Example how this can be done in bash on Linux:
 
 ```bash
-cd ./raw_data/
-wget https://github.com/RobinfRoth/dawr-ass3/releases/download/Raw_Data/raw_data.zip
-unzip raw_data.zip
+wget https://github.com/RobinfRoth/dawr-ass3/releases/download/data/data_and_logs.zip
+unzip data_and_logs.zip
 ```
 
 ## Installation
+
+Upload the notebook on Databricks to use PySpark.
+
+To run it locally use this steps (PySpark wont work): 
 
 It is recommended to setup a Python virtualenv (venv) to install the dependencies into before running the notebook.
 
